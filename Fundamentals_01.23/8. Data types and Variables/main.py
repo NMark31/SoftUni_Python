@@ -1,5 +1,6 @@
-n = 123456
+string = "abcds"
+unique_string = set(string)
 
-x = int(n % 10)
+if len(string) == len(unique_string):
 
-print(x)
+    print(string)
