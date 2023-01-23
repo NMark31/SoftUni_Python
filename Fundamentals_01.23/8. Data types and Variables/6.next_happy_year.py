@@ -5,7 +5,3 @@ while len(set(str(year))) != len(str(year)):
 
 print(year)
 
-
-
-
-
