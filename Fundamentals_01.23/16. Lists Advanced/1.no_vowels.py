@@ -1,6 +1,5 @@
 def is_vowel(char):
-    if char.lower() == "a" or char.lower() == "o" or char.lower() == "u" or char.lower() == "e" or char.lower() == "i":
-        return True
+    return char.lower() in ['a', 'o', 'u', 'e', 'i']
 
 
 user_input = input()
